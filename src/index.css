@@ -75,10 +75,15 @@ body {
 	font-size: 100px;
 	font-weight: 100;
 	text-align: center;
-	color: rgba(175, 47, 47, 0.15);
+	color: rgba(170, 13, 13, 0.15);
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	text-rendering: optimizeLegibility;
+}
+.todoapp h1:hover{
+	color: #d67275;
+	transition: 0.4s ease-in-out;
+	text-decoration: line-through rgba(209, 159, 84, 0.5);
 }
 
 .new-todo,
