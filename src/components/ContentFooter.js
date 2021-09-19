@@ -11,13 +11,13 @@ const ContentFooter = () => {
 
 		<ul className="filters">
 			<li>
-				<a href="#" className="selected">All</a>
+				<a href="#/" className="selected">All</a>
 			</li>
 			<li>
-				<a href="#">Active</a>
+				<a href="#/">Active</a>
 			</li>
 			<li>
-				<a href="#">Completed</a>
+				<a href="#/">Completed</a>
 			</li>
 		</ul>
 
